@@ -84,17 +84,17 @@ The runbook is split into sections for ease of navigation:
 
 | # | Section | Scope |
 |:---:|---|:---:|
-| 1️⃣ | [Base Preparation](docs/01-base-preparation.md) | 🖥️ All nodes |
-| 2️⃣ | [Install & Configure etcd](docs/02-etcd-setup.md) | 🖥️ All nodes |
-| 3️⃣ | [Install PostgreSQL + Patroni](docs/03-postgresql-patroni.md) | 🖥️ All nodes |
-| 4️⃣ | [Configure Patroni](docs/04-patroni-config.md) | 🖥️ All nodes |
-| 5️⃣ | [Create Patroni systemd Service](docs/05-patroni-service.md) | 🖥️ All nodes |
-| 6️⃣ | [Install HAProxy + Keepalived](docs/06-haproxy.md) | 🖥️ All nodes |
-| 7️⃣ | [Configure Keepalived VIP](docs/07-keepalived.md) | 🏠 On-prem only |
-| 8️⃣ | [Oracle Cloud (OCI) Variant — NLB](docs/08-oci-variant.md) | ☁️ OCI only |
-| 9️⃣ | [Verify & Test Failover](docs/09-verify-failover.md) | ✅ Validation |
-| 🔟 | [On-Prem vs OCI — What Changes](docs/10-onprem-vs-oci.md) | 📋 Reference |
-| ✅ | [Production Checklist](docs/11-production-checklist.md) | 🚀 Go-live |
+| 1️⃣ | [Base Preparation](01-base-preparation.md) | 🖥️ All nodes |
+| 2️⃣ | [Install & Configure etcd](/02-etcd-setup.md) | 🖥️ All nodes |
+| 3️⃣ | [Install PostgreSQL + Patroni](03-postgresql-patroni.md) | 🖥️ All nodes |
+| 4️⃣ | [Configure Patroni](04-patroni-config.md) | 🖥️ All nodes |
+| 5️⃣ | [Create Patroni systemd Service](/05-patroni-service.md) | 🖥️ All nodes |
+| 6️⃣ | [Install HAProxy + Keepalived](06-haproxy.md) | 🖥️ All nodes |
+| 7️⃣ | [Configure Keepalived VIP](/07-keepalived.md) | 🏠 On-prem only |
+| 8️⃣ | [Oracle Cloud (OCI) Variant — NLB](08-oci-variant.md) | ☁️ OCI only |
+| 9️⃣ | [Verify & Test Failover](09-verify-failover.md) | ✅ Validation |
+| 🔟 | [On-Prem vs OCI — What Changes](10-onprem-vs-oci.md) | 📋 Reference |
+| ✅ | [Production Checklist](11-production-checklist.md) | 🚀 Go-live |
 
 ---
 

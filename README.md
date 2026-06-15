@@ -59,7 +59,7 @@ Each node = PostgreSQL + Patroni + etcd + HAProxy
 
 The runbook is split into sections for ease of navigation:
 
-1. [Base Preparation](PG-Cluster/01-base-preparation.md)
+1. [Base Preparation](/main/01-base-preparation.md)
 2. [Install & Configure etcd](docs/02-etcd-setup.md)
 3. [Install PostgreSQL + Patroni](docs/03-postgresql-patroni.md)
 4. [Configure Patroni](docs/04-patroni-config.md)

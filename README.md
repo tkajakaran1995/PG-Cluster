@@ -60,16 +60,16 @@ Each node = PostgreSQL + Patroni + etcd + HAProxy
 The runbook is split into sections for ease of navigation:
 
 1. [Base Preparation](01-base-preparation.md)
-2. [Install & Configure etcd](docs/02-etcd-setup.md)
-3. [Install PostgreSQL + Patroni](docs/03-postgresql-patroni.md)
-4. [Configure Patroni](docs/04-patroni-config.md)
-5. [Create Patroni systemd Service](docs/05-patroni-service.md)
-6. [Install HAProxy + Keepalived](docs/06-haproxy.md)
-7. [Configure Keepalived VIP (on-prem only)](docs/07-keepalived.md)
-8. [Oracle Cloud (OCI) Variant — NLB instead of Keepalived](docs/08-oci-variant.md)
-9. [Verify & Test Failover](docs/09-verify-failover.md)
-10. [On-Prem vs OCI — What Changes](docs/10-onprem-vs-oci.md)
-11. [Production Checklist](docs/11-production-checklist.md)
+2. [Install & Configure etcd](02-etcd-setup.md)
+3. [Install PostgreSQL + Patroni](03-postgresql-patroni.md)
+4. [Configure Patroni](04-patroni-config.md)
+5. [Create Patroni systemd Service](05-patroni-service.md)
+6. [Install HAProxy + Keepalived](06-haproxy.md)
+7. [Configure Keepalived VIP (on-prem only)](07-keepalived.md)
+8. [Oracle Cloud (OCI) Variant — NLB instead of Keepalived](08-oci-variant.md)
+9. [Verify & Test Failover](09-verify-failover.md)
+10. [On-Prem vs OCI — What Changes](10-onprem-vs-oci.md)
+11. [Production Checklist](11-production-checklist.md)
 
 ## Quick Start
 

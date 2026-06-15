@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/28953470/README.md)
 # PostgreSQL HA Cluster — Deployment Runbook
 
 Community Edition · 3-Node Co-located Cluster · Ubuntu 22.04 LTS · Patroni + etcd + HAProxy
@@ -60,7 +59,7 @@ Each node = PostgreSQL + Patroni + etcd + HAProxy
 
 The runbook is split into sections for ease of navigation:
 
-1. [Base Preparation](docs/01-base-preparation.md)
+1. [Base Preparation](PG-Cluster/01-base-preparation.md)
 2. [Install & Configure etcd](docs/02-etcd-setup.md)
 3. [Install PostgreSQL + Patroni](docs/03-postgresql-patroni.md)
 4. [Configure Patroni](docs/04-patroni-config.md)
